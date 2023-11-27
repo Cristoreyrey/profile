@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(105, 146, 109);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(17, 2, 2);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+p {
+  color:rgb(249, 224, 193)
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(5, 15, 52, 0.984);
+}
+
+a:hover {
+  color:aquamarine;
+}
+
+.foto-container {
+  background-color: rgb(2, 2, 11);
+  border: 18px, solid, rgb(31, 80, 31);
+  border-radius: 20%;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  padding: 5;
+}
+.foto {
+  border-radius: 20%;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+}
+.main {
+  background-color: rgba(58, 25, 73, 0.263);
+  line-height: 15px;
+  border: 10px, solid, rgb(77, 42, 48);
+  border-radius: 33%;
+  text-align: center;
+}
+.list {
+  background-color: rgb(161, 80, 80);
+  margin: 0 auto;
+  width: 180px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
